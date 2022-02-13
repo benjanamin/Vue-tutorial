@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <input type="number" v-model="n1">
+        <input type="number" v-model="n2">
+        <h5>El numero es {{resultado}}</h5>
+    </div>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script>
+        const app = {
+            data() {
+                return{
+                    n1:0,
+                    n2:0
+                }
+            },
+            //Son propiedades q se actualizan cuando sucede algun cambio
+            computed: {
+                resultado: function(){
+                    return this.n1 + this.n2;
+                }
+            }
+        }
+        Vue.createApp(app).mount('#app')
+    </script>
+</body>
+</html>
