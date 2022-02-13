@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <p v-bind:title="propiedad"> Pon el mouse sobre mi</p>
+        <button v-on:click="cambiarTitle">Boton con funcion vue</button>
+    </div>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script>
+        //aplicacion vue
+        const app = {
+            //datos
+            data() {
+                return{
+                    propiedad: 'se creo una variable y se le asigno su valor a la propiedad title y solo se puede cambiar x funciones'
+                }
+            },
+            methods: {
+                cambiarTitle()
+                {
+                    this.propiedad = 'cambio dinamico'
+                }
+            }
+
+
+        }
+        Vue.createApp(app).mount('#app')
+    </script>
+</body>
+</html>

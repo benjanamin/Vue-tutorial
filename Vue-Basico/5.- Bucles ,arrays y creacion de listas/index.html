@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <label for="a">Añadir Letra</label>
+        <br>
+        <input type="text" name="a" v-model="letra">
+        <br>
+        <button v-on:click="agregarItem">Añadir</button>
+        <br>
+        <label> Impimir lista</label>
+        <ul>
+            <li v-for="item in lista">{{item}}</li>
+        </ul>
+    </div>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script>
+        //aplicacion vue
+        const app = {
+            //datos
+            data() {
+                return{
+                    lista: ['a','b','c'],
+                    letra: ''
+                }
+            },
+            methods: {
+                agregarItem(){
+                    this.lista.push(this.letra)
+                    this.letra = ''
+                }
+            }
+            
+        }
+        Vue.createApp(app).mount('#app')
+    </script>
+</body>
+</html>
