@@ -54,7 +54,7 @@
      },
      methods: {
          tirarDado(){
-             this.tirada = Math.floor(Math.random() * (21 - 1) + 1);
+             this.tirada = Math.floor(Math.random() * 20 )+ 1;
 
          }
      }

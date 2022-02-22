@@ -1,0 +1,34 @@
+[
+    {
+      "nombre": "Construir una fortaleza",
+      "texto": "Un personaje puede pasar el periodo de tiempo entre aventuras erigiendo una fortaleza."
+    },
+    {
+      "nombre": "Irse de juerga",
+      "texto": "Los personajes pueden pasar el tiempo entre aventuras\ndivirtiéndose de muchas formas distintas, como asistiendo\na fiestas, cogiéndose una borrachera, apostando o llevando\na cabo cualquier otra actividad que les ayude a aguantar los\npeligros a los que se enfrentan durante sus aventuras."
+    },
+    {
+      "nombre": "Fabricar un objeto magico",
+      "texto": "Los objetos mágicos son el ámbito del DM. así que solo tú\npuedes decidir cuándo y cómo caen en manos del grupo.\nPero, si quieres, puedes dejar que los personajes fabriquen\nobjetos mágicos."
+    },
+    {
+      "nombre": "Ganar prestigio",
+      "texto": "Un personaje puede invertir su tiempo entre aventuras mejorando\nsu renombre con una organización (consulta \"Prestigio\"\nen el capítulo 1)."
+    },
+    {
+      "nombre": "Realizar ritos sagrados",
+      "texto": "Un personaje especialmente pío podría invertir su tiempo\nentre aventuras en llevar a cabo ritos sagrados en un templo\na filiado con uno de los dioses a los que venera."
+    },
+    {
+      "nombre": "Regentar un negocio",
+      "texto": "Los aventureros pueden acabar poseyendo negocios que no\ntengan nada que ver con internarse en mazmorras o salvar\nel mundo."
+    },
+    {
+      "nombre": "Vender objetos magicos",
+      "texto": "Pocos pueden permitirse el lujo de comprar un objeto\nmágico, y aún menos saben cómo encontrar uno. Los\naventure ros son, debido a la naturaleza de su profesión,\nexcepcionales a este respecto."
+    },
+    {
+      "nombre": "Propagar rumores",
+      "texto": "Cambiar la opinión pública puede ser una forma muy efectiva\nde derrocar a un villano o encumbrar a un amigo. Difundir\nun rumor es un modo eficiente, aunque solapado, de conseguir\neste objetivo."
+    }
+  ]
