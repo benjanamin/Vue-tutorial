@@ -25,6 +25,7 @@
       </div>
     </nav>
     <div class="container" style="margin-bottom: 5rem;">
+      <Calculadora></Calculadora>
       <Index v-if="pagina === 'indice'"></Index>
       <Albanil v-else-if="pagina === 'albanil'"></Albanil>
 
@@ -225,12 +226,14 @@
 //import Nav from './components/Nav.vue'
 import Albanil from './components/professions/Albanil.vue'
 import Index from './components/Index.vue'
+import Calculadora from './components/util/Calculadora.vue'
 export default {
   name: 'App',
   components: {
     //Nav
     Albanil,
-    Index
+    Index,
+    Calculadora
   },
   data() {
     return {

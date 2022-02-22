@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h2>Regentar un negocio</h2>
         <p>Los aventureros pueden acabar poseyendo negocios que no tengan nada que ver con internarse en mazmorras o salvar el mundo. Un personaje podría heredar una forja, o quizá el grupo reciba una parcela de tierra cultivable o una taberna como recompensa. Si se encariñan del negocio, cabe la posibilidad de que se sientan obligados a dedicar parte de su tiempo entre aventuras a asegurarse de su buena marcha.</p>
         <p>El personaje tirará 1d100 y añadirá el número de días que ha pasado en esta actividad entre aventuras (hasta un máximo de 30) y buscará el resultado en la tabla "regentar un negocio" para determinar lo que ocurre.</p>
         <p>Si, como resultado de esta tirada, el personaje se ve obligado a pagar un coste, pero se niega a hacerlo, el negocio empezará a hundirse. Por cada deuda de este tipo sin pagar, el personaje recibirá un penalizador de - 10 a las siguientes tiradas que realice en esta tabla.</p>

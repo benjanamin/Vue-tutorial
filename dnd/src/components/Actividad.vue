@@ -13,7 +13,7 @@
             </option>
         </select>
 
-        <h2 v-if="seleccion != 'Actividad'">{{seleccion}}</h2>
+        
         <div v-if="seleccion === 'Actividad'">
             <p>Seleccione una actividad arriba para mostrar la informacion correspondiente. En caso de tener que tirar dados aparecera un boton.</p>
         </div>
@@ -22,6 +22,7 @@
         <RitosSagrados v-if="seleccion  === 'Realizar ritos sagrados'"></RitosSagrados>
         <PropagarRumores v-if="seleccion  === 'Propagar rumores'"></PropagarRumores>
         <GanarPrestigio v-if="seleccion  === 'Ganar prestigio'"></GanarPrestigio>
+        <ComprarObjetoMagico v-if="seleccion === 'Compra de objetos magicos'"></ComprarObjetoMagico>
     </div>
 </template>
 
@@ -31,6 +32,10 @@ import RegentarNegocio from './actividades/RegentarNegocio.vue'
 import RitosSagrados from './actividades/RitosSagrados.vue'
 import PropagarRumores from './actividades/PropagarRumores.vue'
 import GanarPrestigio from './actividades/GanarPrestigio.vue'
+import ComprarObjetoMagico from './actividades/ComprarObjetoMagico.vue'
+
+
+import actividadesJSON from '../assets/json/actividades.json'
 export default {
     
     name: 'Actividad',
@@ -39,18 +44,26 @@ export default {
         RegentarNegocio,
         RitosSagrados,
         PropagarRumores,
-        GanarPrestigio
+        GanarPrestigio,
+        ComprarObjetoMagico
     },
     data() {
         return {
-            actividades: ["Construir una fortaleza",  "Fabricar un objeto magico","Ganar prestigio","Irse de juerga","Propagar rumores","Realizar ritos sagrados","Regentar un negocio","Vender objetos magicos"],
+            //actividades: ["Construir una fortaleza",  "Fabricar un objeto magico","Ganar prestigio","Irse de juerga","Propagar rumores","Realizar ritos sagrados","Regentar un negocio","Vender objetos magicos"],
+            actividades: [],
             seleccion: 'Actividad'
         }
     },
     methods: {
         cambiarSeleccion(seleccion){
             this.seleccion = seleccion
+        },
+        leerActividades(){
+            this.actividades = actividadesJSON.actividades
         }
+    },
+    mounted(){
+        this.leerActividades()
     }
 }
 </script>
