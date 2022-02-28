@@ -12,16 +12,16 @@
             </thead>
             <tbody>
                 <tr>
-                    <th>Aldea</th>
-                    <th>2d6 días</th>
+                    <td>Aldea</td>
+                    <td>2d6 días</td>
                 </tr>
                 <tr>
-                    <th>Pueblo</th>
-                    <th>4d6 días</th>
+                    <td>Pueblo</td>
+                    <td>4d6 días</td>
                 </tr>
                 <tr>
-                    <th>Ciudad</th>
-                    <th>6d6 días</th>
+                    <td>Ciudad</td>
+                    <td>6d6 días</td>
                 </tr>
             </tbody>
         </table>

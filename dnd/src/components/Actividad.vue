@@ -23,6 +23,7 @@
         <PropagarRumores v-if="seleccion  === 'Propagar rumores'"></PropagarRumores>
         <GanarPrestigio v-if="seleccion  === 'Ganar prestigio'"></GanarPrestigio>
         <ComprarObjetoMagico v-if="seleccion === 'Compra de objetos magicos'"></ComprarObjetoMagico>
+        <CrearObjeto v-if="seleccion === 'Crear un objeto'"></CrearObjeto>
     </div>
 </template>
 
@@ -33,7 +34,7 @@ import RitosSagrados from './actividades/RitosSagrados.vue'
 import PropagarRumores from './actividades/PropagarRumores.vue'
 import GanarPrestigio from './actividades/GanarPrestigio.vue'
 import ComprarObjetoMagico from './actividades/ComprarObjetoMagico.vue'
-
+import CrearObjeto from './actividades/CrearObjeto.vue'
 
 import actividadesJSON from '../assets/json/actividades.json'
 export default {
@@ -45,13 +46,14 @@ export default {
         RitosSagrados,
         PropagarRumores,
         GanarPrestigio,
-        ComprarObjetoMagico
+        ComprarObjetoMagico,
+        CrearObjeto
     },
     data() {
         return {
             //actividades: ["Construir una fortaleza",  "Fabricar un objeto magico","Ganar prestigio","Irse de juerga","Propagar rumores","Realizar ritos sagrados","Regentar un negocio","Vender objetos magicos"],
             actividades: [],
-            seleccion: 'Actividad'
+            seleccion: 'Construir una fortaleza'
         }
     },
     methods: {

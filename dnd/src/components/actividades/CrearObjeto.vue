@@ -14,22 +14,35 @@
             </thead>
             <tbody>
                 <tr>
-                    <th>Utiles de herborista</th>
-                    <th>Antitoxina, pocion de curacion</th>
+                    <td>Utiles de herborista</td>
+                    <td>Antitoxina, pocion de curacion</td>
                 </tr>
                 <tr>
-                    <th>Herramientas de curtidor</th>
-                    <th>Armaduras de cuero, botas</th>
+                    <td>Herramientas de curtidor</td>
+                    <td>Armaduras de cuero, botas</td>
                 </tr>
                 <tr>
-                    <th>Herramientas de herrero</th>
-                    <th>Armadura, armas</th>
+                    <td>Herramientas de herrero</td>
+                    <td>Armadura, armas</td>
                 </tr>
                 <tr>
-                    <th>Herramientas de tejedor</th>
-                    <th>Capas tunicas</th>
+                    <td>Herramientas de tejedor</td>
+                    <td>Capas tunicas</td>
                 </tr>
             </tbody>
         </table>
+
+
+
+        <Calculadora></Calculadora>
     </div>
 </template>
+<script>
+import Calculadora from '../util/Calculadora.vue'
+export default {
+    name: 'CrearObjeto',
+    components: {
+        Calculadora
+    }
+}
+</script>

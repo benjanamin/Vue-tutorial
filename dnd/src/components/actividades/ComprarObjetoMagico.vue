@@ -17,40 +17,40 @@
             </thead>
             <tbody>
                 <tr>
-                    <th>1-5</th>
-                    <th>Tira 1d6</th>
+                    <td>1-5</td>
+                    <td>Tira 1d6</td>
                 </tr>
                 <tr>
-                    <th>6-10</th>
-                    <th></th>
+                    <td>6-10</td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <th>11-15</th>
-                    <th></th>
+                    <td>11-15</td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <th>16-20</th>
-                    <th></th>
+                    <td>16-20</td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <th>21-25</th>
-                    <th></th>
+                    <td>21-25</td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <th>26-30</th>
-                    <th></th>
+                    <td>26-30</td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <th>31-35</th>
-                    <th></th>
+                    <td>31-35</td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <th>36-40</th>
-                    <th></th>
+                    <td>36-40</td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <th>41+</th>
-                    <th></th>
+                    <td>41+</td>
+                    <td></td>
                 </tr>
             </tbody>
         </table>
@@ -64,24 +64,24 @@
              </thead>
              <tbody>
                  <tr>
-                     <th>Comun</th>
-                     <th @click="obtenerPrecio('comun')">(1d6 + 1)x 10 gp</th>
+                     <td>Comun</td>
+                     <td @click="obtenerPrecio('comun')">(1d6 + 1)x 10 gp</td>
                  </tr>
                  <tr>
-                     <th>Poco comun</th>
-                     <th @click="obtenerPrecio('poco comun')">1d6 x 100 gp</th>
+                     <td>Poco comun</td>
+                     <td @click="obtenerPrecio('poco comun')">1d6 x 100 gp</td>
                  </tr>
                  <tr>
-                     <th>Raro</th>
-                     <th @click="obtenerPrecio('raro')"> 2d10 x 1.000 gp</th>
+                     <td>Raro</td>
+                     <td @click="obtenerPrecio('raro')"> 2d10 x 1.000 gp</td>
                  </tr>
                  <tr>
-                     <th>Muy raro</th>
-                     <th @click="obtenerPrecio('muy raro')">(1d4 + 1) x 10.000 gp</th>
+                     <td>Muy raro</td>
+                     <td @click="obtenerPrecio('muy raro')">(1d4 + 1) x 10.000 gp</td>
                  </tr>
                  <tr>
-                     <th>Legendario</th>
-                     <th @click="obtenerPrecio('legendario')">2d6 x 25.000 gp</th>
+                     <td>Legendario</td>
+                     <td @click="obtenerPrecio('legendario')">2d6 x 25.000 gp</td>
                  </tr>
              </tbody>
          </table>
