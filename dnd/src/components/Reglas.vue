@@ -5,6 +5,9 @@
         <PruebaCaracteristica></PruebaCaracteristica>
         <hr>
         <ClaseDificultad></ClaseDificultad>
+        <hr>
+        <Ventaja></Ventaja>
+        <hr>
 
     </div>
 </template>
@@ -12,12 +15,14 @@
 <script>
 import PruebaCaracteristica from './reglas/PruebaCaracteristica.vue'
 import ClaseDificultad from './reglas/ClaseDificultad.vue'
+import Ventaja from './reglas/Ventaja.vue'
 
 export default {
     name: 'Reglas',
     components: {
         PruebaCaracteristica,
-        ClaseDificultad
+        ClaseDificultad,
+        Ventaja
     }
 }
 </script>
