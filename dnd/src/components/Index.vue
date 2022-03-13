@@ -18,7 +18,7 @@
                     <a class="nav-link clickeable" @click="cambiarPagina('actividad')">Actividades</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link clickeable" @click="cambiarPagina('')">Blanco</a>
+                    <a class="nav-link clickeable" @click="cambiarPagina('estados')">Estados</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle clickeable"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -40,6 +40,7 @@
             </div>
             <Actividad v-if="pagina === 'actividad'"></Actividad>
             <Reglas v-if="pagina === 'reglas'"></Reglas>
+            <Estados v-if="pagina === 'estados'"></Estados>
         </div>
         <footer class="bg-dark text-center text-white mt-5">
             <!-- Grid container -->
@@ -166,12 +167,14 @@
 //import Albanil from './professions/Albanil.vue'
 import Actividad from './Actividad.vue'
 import Reglas from './Reglas.vue'
+import Estados from './util/Estados.vue'
 export default {
     
     name: 'Index',
     components: {
         Actividad,
-        Reglas
+        Reglas,
+        Estados
         //Albanil
     },
     data(){

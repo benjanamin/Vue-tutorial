@@ -1,0 +1,92 @@
+[
+  {
+    "propiedad": "Abadia",
+    "coste": "20 po",
+    "cualificados": 5,
+    "noCualificados": 25
+  },
+  {
+    "propiedad": "Cabaña de cazadores",
+    "coste": "5 pp",
+    "cualificados": 1,
+    "noCualificados": "-"
+  },
+  {
+    "propiedad": "Casa gremial en pueblo o ciudad",
+    "coste": "5 po",
+    "cualificados": 5,
+    "noCualificados": 3
+  },
+  {
+    "propiedad": "Finca de noble",
+    "coste": "10 po",
+    "cualificados": 3,
+    "noCualificados": 15
+  },
+  {
+    "propiedad": "Fortaleza o castillo pequeño",
+    "coste": "100 po",
+    "cualificados": 50,
+    "noCualificados": 50
+  },
+  {
+    "propiedad": "Granja",
+    "coste": "5 pp",
+    "cualificados": 1,
+    "noCualificados": 2
+  },
+  {
+    "propiedad": "Palacio o castillo grande",
+    "coste": "400 po",
+    "cualificados": 200,
+    "noCualificados": 100
+  },
+  {
+    "propiedad": "Posada en camino",
+    "coste": "10 po",
+    "cualificados": 5,
+    "noCualificados": 10
+  },
+  {
+    "propiedad": "Posada en pueblo o ciudad",
+    "coste": "5 po",
+    "cualificados": 1,
+    "noCualificados": 5
+  },
+  {
+    "propiedad": "Puesto comercial",
+    "coste": "10 po",
+    "cualificados": 4,
+    "noCualificados": 2
+  },
+  {
+    "propiedad": "Puesto fronterizo o fuerte",
+    "coste": "50 po",
+    "cualificados": 20,
+    "noCualificados": 40
+  },
+  {
+    "propiedad": "Templo grande",
+    "coste": "25 po",
+    "cualificados": 10,
+    "noCualificados": 10
+  },
+  {
+    "propiedad": "Templo pequeño",
+    "coste": "1 po",
+    "cualificados": 2,
+    "noCualificados": "-"
+  },
+  {
+    "propiedad": "Tienda",
+    "coste": "2 po",
+    "cualificados": 1,
+    "noCualificados": "-"
+  },
+  {
+    "propiedad": "Torre fortificada",
+    "coste": "25 po",
+    "cualificados": 10,
+    "noCualificados": "-"
+  }
+]

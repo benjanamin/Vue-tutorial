@@ -63,10 +63,15 @@
                 </tbody>
                 
             </table>
+        <Costes></Costes>
     </div>
 </template>
 <script>
+import Costes from '../otros/Costes.vue'
 export default {
-    name: 'ConstruirFortaleza'
+    name: 'ConstruirFortaleza',
+    components: {
+        Costes
+    }
 }
 </script>
